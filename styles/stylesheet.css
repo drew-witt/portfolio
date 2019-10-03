@@ -1,0 +1,68 @@
+body {
+  background-color: #ededed;
+  margin: 25px 20px 50px 20px;
+  font-size:14px;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height:1.4;
+}
+h1,h2,h3,h4,h5,h6{font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-weight:normal}
+h1{font-size:45px;line-height:48px}
+h2{font-size:36px;line-height:42px}
+h3{font-size:28px;line-height:36px}
+h4{font-size:24px;line-height:25px}
+h5{font-size:20px;line-height:24px}
+h6{font-size:18px;line-height:24px}
+
+section {
+  border: 1px solid black;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 0px;
+  background-color: #d4d4d4;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+a:link {
+  color:#0000ff;
+  text-decoration:none;
+}
+a:visited {
+  color:#ff0000;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+#progress {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#progress td, #progress th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#progress tr:nth-child(even){background-color: #f2f2f2;}
+
+#progress tr:hover {background-color: #ddd;}
+
+#progress th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
