@@ -31,9 +31,11 @@ section {
   padding-left: 10px;
   text-align: center;
 }
+
 ul {
   list-style-type: none;
 }
+
 
 aside {
   float: right;
@@ -50,6 +52,7 @@ img {
   margin-right: auto;
   border: 1px solid black;
 }
+
 a:link {
   color:#0000ff;
   text-decoration:none;
@@ -62,12 +65,22 @@ a:hover {
   text-decoration:underline;
 }
 
+footer {
+  display: flex;
+  float: inherit;
+}
+
 .subhead {
   text-align: center;
   padding: 0;
   border: none;
   margin: 0;
   width: 90%;
+}
+
+.subhead:hover {
+  background-color: #FFCCCC;
+    transform: rotate(180deg);
 }
 
 .story {
@@ -221,13 +234,20 @@ a:hover {
   border-collapse: collapse;
   width: 100%;
 }
+
 #progress td, #progress th {
   border: 1px solid #ddd;
   padding: 8px;
 }
-#progress tr:nth-child(even){background-color: #f2f2f2;}
 
-#progress tr:hover {background-color: #ddd;}
+#progress tr:nth-child(even){
+  background-color: #f2f2f2;}
+
+#progress tr:nth-child(odd){
+    background-color: #e6e6e6;}
+
+#progress tr:hover {
+  background-color: #ddd;}
 
 #progress th {
   padding-top: 12px;
